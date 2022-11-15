@@ -4,33 +4,44 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Chronometer;
 import android.widget.TextView;
 
 import java.util.*;
 
 public class GameScreen extends AppCompatActivity {
-    //TextView count = (TextView) findViewById(R.id.Moves);
+
+    TextView count;
     int counter = -1;
 
     int[][] intGame = new int[4][4];
     Button[][] btnGame = new Button[4][4];
     ArrayList<Integer> intNums;
 
+    int[][] intCheck = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,0,15}};
+    private Chronometer chronometer;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game_screen);
-
+        chronometer = findViewById(R.id.chronometer);
+        count = (TextView) findViewById(R.id.Moves);
         setGame();
         setButton();
         updateGame();
+        chronometer.setBase(SystemClock.elapsedRealtime());
+        chronometer.start();
     }
+
     public void toFirst(View View) {
         Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
     }
+
     public void onClickInstruction(View View) {
         Intent i = new Intent(this, Instructions.class);
         startActivity(i);
@@ -40,6 +51,8 @@ public class GameScreen extends AppCompatActivity {
         setGame();
         updateGame();
         counter = 0;
+        count.setText(counter + "");
+        chronometer.setBase(SystemClock.elapsedRealtime());
     }
     public void setGame(){
         intNums = new ArrayList<>();
@@ -58,6 +71,9 @@ public class GameScreen extends AppCompatActivity {
                 intIndex++;
             }
         }
+
+        intGame = intCheck;
+
     }
 
     public void setButton(){
@@ -90,9 +106,8 @@ public class GameScreen extends AppCompatActivity {
             }
         }
 
-        //counter++;
-        //count.setText(counter + "");
-
+        counter++;
+        count.setText(counter + "");
         winCheck();
     }
 
@@ -102,8 +117,21 @@ public class GameScreen extends AppCompatActivity {
                 {9, 10, 11, 12},
                 {13, 14, 15, 0}};
 
-        if(intGame == intWinGame){
+        boolean equalsCheck = true;
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 4; j++) {
+                if(intGame[i][j] != intWinGame[i][j])
+                    equalsCheck = false;
+            }
+        }
+
+        if(equalsCheck){
+            chronometer.stop();
             Intent i = new Intent(this, Winner.class);
+            String TotalCount = count.getText().toString();
+            String TotalTimer  = chronometer.getText().toString();
+            i.putExtra("count",TotalCount);
+            i.putExtra("timer",TotalTimer);
             startActivity(i);
         }
     }
@@ -182,4 +210,3 @@ public class GameScreen extends AppCompatActivity {
 
 
 }
-

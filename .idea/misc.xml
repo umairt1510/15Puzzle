@@ -3,10 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Umair/AndroidStudioProjects/umairzubair_15puzzle/app/src/main/res/layout/activity_game_screen.xml" value="0.2" />
+        <entry key="..\:/Users/Umair/AndroidStudioProjects/umairzubair_15puzzle/app/src/main/res/layout/activity_game_screen.xml" value="0.1" />
         <entry key="..\:/Users/Umair/AndroidStudioProjects/umairzubair_15puzzle/app/src/main/res/layout/activity_instructions.xml" value="0.20262919310970082" />
         <entry key="..\:/Users/Umair/AndroidStudioProjects/umairzubair_15puzzle/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/Umair/AndroidStudioProjects/umairzubair_15puzzle/app/src/main/res/layout/activity_winner.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Umair/AndroidStudioProjects/umairzubair_15puzzle/app/src/main/res/layout/activity_winner.xml" value="0.1" />
         <entry key="..\:/Users/Umair/AndroidStudioProjects/umairzubair_15puzzle/app/src/main/res/layout/game_screen.xml" value="0.20863616930312098" />
       </map>
     </option>

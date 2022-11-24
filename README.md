@@ -8,8 +8,9 @@ Puzzle 15
 </h1>
 
 
-![Screenshot_20221115_115637](https://user-images.githubusercontent.com/118224368/203708131-2e7e524f-5046-4453-b8fe-bc172597c4af.png)
-![Screenshot_20221115_120540](https://user-images.githubusercontent.com/118224368/203708139-81a2285a-06e7-4078-a673-71a9e38a668c.png)
+![Screenshot_20221115_115637](https://user-images.githubusercontent.com/118224368/203708283-20eeb645-f6c5-4220-800f-fa6f75c77df2.png)
+![Screenshot_20221115_120540](https://user-images.githubusercontent.com/118224368/203708288-653dc49b-4ac1-4e99-b0ae-eaed77b20619.png)
+
 
 
 ![Screenshot_20221115_120713](https://user-images.githubusercontent.com/118224368/203708146-a00677aa-9841-4d7f-a845-ef6169d721dc.png)

@@ -7,6 +7,7 @@ Puzzle 15
 <img src="https://user-images.githubusercontent.com/118224368/203706062-c24a1933-546e-45f0-bcee-f8d6b5da6c24.png" width="160">
 </h1>
 
+<h2>Game Screens</h2>
 
 ![Screenshot_20221115_115637](https://user-images.githubusercontent.com/118224368/203708283-20eeb645-f6c5-4220-800f-fa6f75c77df2.png)
 ![Screenshot_20221115_120540](https://user-images.githubusercontent.com/118224368/203708288-653dc49b-4ac1-4e99-b0ae-eaed77b20619.png)

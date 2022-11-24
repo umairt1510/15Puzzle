@@ -11,5 +11,5 @@ Puzzle 15
 ![Screenshot_20221115_115637](https://user-images.githubusercontent.com/118224368/203708283-20eeb645-f6c5-4220-800f-fa6f75c77df2.png)
 ![Screenshot_20221115_120540](https://user-images.githubusercontent.com/118224368/203708288-653dc49b-4ac1-4e99-b0ae-eaed77b20619.png)
 
-![Screenshot_20221115_120713](https://user-images.githubusercontent.com/118224368/203708412-33e83b84-d145-4f36-9437-fca90fe74774.png)
-![Screenshot_20221115_120736](https://user-images.githubusercontent.com/118224368/203708442-68feac72-2647-4472-b550-e554ad1cc13c.png)
+![203705855-62e48639-d5fc-4974-82ab-653579fd2fb8](https://user-images.githubusercontent.com/118224368/203709261-12b5de05-8a01-4596-a4b0-2ae2b317eb49.png)
+![203705865-3cb2e6f6-faf6-465f-9f7f-76cf0da3099d](https://user-images.githubusercontent.com/118224368/203709268-3b710014-1be3-4788-a592-64f1b8a3b068.png)
